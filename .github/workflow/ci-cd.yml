@@ -23,7 +23,7 @@ test:
         run: |
           pytest
 
-    deploy:                                                     deploy   This represents our Cont. Deployment 
+    deploy:                                                     
       name: CD - Deploy Application
       needs: test
       runs-on: ubuntu-latest
